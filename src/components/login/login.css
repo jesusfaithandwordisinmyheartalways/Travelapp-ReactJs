@@ -1,0 +1,95 @@
+
+
+
+
+
+:root {
+    --white: white;
+    --black: black;
+    --greenColor: green;
+    --slateGray: slategray;
+    --seagreen:seagreen;
+    --dodgerblue:dodgerblue;
+    --whitesmoke: whitesmoke
+
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+      
+}
+
+
+
+
+.Login-Container {
+    width: 100%;
+    overflow: hidden;
+    background:url(/src/images/logintravel.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    background-attachment:scroll;
+    height: 100vh;    
+    
+}
+
+
+
+
+.Login-Wrapper {
+    display: grid;
+    position: relative;
+    right: 30px;
+    align-content: center;
+    justify-content: center;
+    background: linear-gradient(var(--white), var(--dodgerblue));
+    border-radius: 10px;
+    height: 490px;
+    margin:0 auto;
+    max-width: 600px;
+    margin-top: 30px;
+    text-align: center;
+    
+    
+}
+
+
+
+.Login-Wrapper input {
+    padding:1em 2em;
+    font-size: 1rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius:20px;
+    border:none;
+    outline: none;
+    margin:10px 3px;
+}
+
+
+.Login-Wrapper label {
+    color:var(--white);
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.sign-in-header {
+    color:black;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+

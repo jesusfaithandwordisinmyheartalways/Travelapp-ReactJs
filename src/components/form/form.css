@@ -1,0 +1,503 @@
+
+
+
+:root {
+    --whiteColor: white;
+    --blackColor: black;
+    --greenColor: green;
+    --slateGray: slategray;
+    --seagreen:seagreen;
+    --dodgerblue:dodgerblue;
+
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+    background-color:var(--whiteColor)
+    
+}
+
+
+body.dark-theme {
+    --whiteColor: black;
+    --blackColor:white;
+    --seagreen:black;
+    --dodgerblue:white;
+    --slateGray:black;
+    --seagreen:black;
+}
+
+
+
+
+.toggle-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 550px;
+    position: relative;
+    top:-345px;
+    left: 600px;
+}
+
+
+
+
+.sun img {
+    width: 50px;
+    object-fit: contain;
+}
+
+.moon img {
+    width: 36px;
+    object-fit: contain; 
+}
+
+.white-circle {
+    background-color:black;
+    height: 21px;
+    width: 50px;
+    border-radius: 10px;
+    position: relative;
+    left: 10px;
+    top:-3px
+}
+
+
+.circle {
+    position: relative;
+    top:-3px;
+    right: 40px;
+    background-color:whitesmoke;
+    height: 20px;
+    width: 18px;
+    border-radius:50%
+}
+
+
+
+
+
+
+
+
+/*---------------------------HEADER *----------------------------------*/
+
+.Header-Container {
+    width: 100vw;
+    overflow: hidden;
+    margin-top: -70px;  
+    
+}
+
+
+
+.Header-Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    height: 610px;
+ 
+
+}
+
+.header-banner-wrapper {
+    background:url(/src/images/internationtravelbanner.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    height: 510px;
+    margin:0 auto;
+    width: 100%;
+}
+
+
+.header-banner img {
+    object-fit: contain;
+}
+
+
+.header-banner-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 1000px;
+    margin-top: -310px;
+}
+
+
+.header-banner-text-wrapper h3 {
+    color:green;
+    font-size: 2.6rem;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top:-245px;
+    right: 31px;
+}
+
+
+.header-banner-text-wrapper h1 {
+    color:rgba(11, 248, 130, 0.77);
+    font-size: 3.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top:-150px;
+    right: 310px;
+    width: 350px;
+}
+
+
+
+
+/*---------------------------CONTENT TWO *----------------------------------*/
+
+
+
+.Countries-Container {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+
+
+.countries-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    max-width: 1500px;
+    margin:0 auto;
+}
+
+.countries-content {
+    background:var(--whiteColor);
+    border-radius:20px;
+    height: 410px;
+    width: 370px;
+    text-align: center;
+}
+
+
+
+.countries-wrapper img {
+    object-fit: contain;
+    width: 370px;
+    border-radius:20px;
+}
+
+
+.countries-text {
+    color:var(--blackColor);
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.countries-text-two {
+    color:var(--blackColor);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    margin-top:10px
+}
+
+
+
+
+
+
+
+
+/*---------------------------FORM *----------------------------------*/
+
+
+.Travel-Form-Container {
+    width: 100%;
+    overflow: hidden;
+    margin-block: 90px;
+}
+
+.Travel-Form-Wrapper {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    background: linear-gradient(var(--seagreen), var(--dodgerblue));
+    border-radius: 10px;
+    height: 590px;
+    margin:0 auto;
+    max-width: 600px;
+    text-align: center;
+
+}
+
+
+.Travel-Form-Wrapper input {
+    padding:1em 3em;
+    font-size: 1rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius:20px;
+    border:none;
+    outline: none;
+    margin:10px 3px;
+}
+
+
+.Travel-Form-Wrapper label {
+    color:var(--blackColor);
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.Travel-Form-Wrapper input[type='submit'] {
+    color:white;
+    background-color: orange;
+    border:none;
+    outline:none;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.Travel-Form-Wrapper input[type='submit']:hover {
+    background-color:var(--slateGray);
+    color:var(--whiteColor)
+}
+
+
+.Travel-Form-Wrapper .travel-blog-header {
+    font-size: 1.5rem;
+    color:white;
+}
+
+
+
+
+.name-error ,
+.password-error,
+.email-error {
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------GROUP TRAVEL------------------------------------------------*/
+
+
+.Group-Container {
+    width: 100%;
+    overflow: hidden;
+    background:var(--slateGray);
+   
+}
+
+
+.Group-Wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    gap:30px;
+    max-width: 1500px;
+    margin:0 auto;
+}
+
+
+
+
+
+.Group-Wrapper img {
+    object-fit: contain;
+    width: 730px;
+    height: 610px;
+    border-radius:50%
+
+}
+
+
+.group-travel-international {
+    background-color:var(--seagreen);
+    border-radius: 15px;
+    height: 410px;
+    width: 650px;
+    text-align: center;
+    padding:1em;
+    border: 1px solid black
+
+}
+
+
+.group-travel-international h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 1.3rem;
+}
+
+.group-travel-international p {
+    font-size: 1.4rem;
+    font-family: "Diamond", "Emerald", "Sapphire", "Ruby", "Pearl";
+    color:white;
+    padding:1em
+}
+
+
+.group-travel-international button {
+    padding:1.2em 3em;
+    background-color:var(--blackColor);
+    color:var(--whiteColor);
+    font-size: 1rem;
+    border:none;
+    border-radius: 15px;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------FOOTER------------------------------------------------*/
+
+
+
+
+.Footer-Container {
+    width: 100%;
+    overflow: hidden;
+    background:black;
+    position: relative;
+    bottom:0;
+    margin-top: -9px;
+}
+
+
+
+.Footer-Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap:55px;
+    max-width: 1200px;
+    margin:0 auto;
+
+}
+
+
+.footer-text {
+    font-size: 1.2rem;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+.footer-text-two
+ {
+    color:white;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.footer-text-two {
+    border: 1px solid whitesmoke;
+    padding:3em
+}
+
+.footer-text-three {
+    font-size: 0.8rem;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Cookie-Banner {
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    background:linear-gradient(royalblue, whitesmoke);
+    border-radius:10px;
+    padding:1em;
+    z-index: 1000;
+    text-align: center;
+}
+
+
+.Cookie-Banner p {
+    color:black;
+    font-size: 1.1rem;
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.Cookie-Banner button {
+    padding:0.8em 3em;
+    color:white;
+    background-color:rgb(14, 172, 143);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    font-size: 1rem;
+    border:none;
+    outline: none;
+    margin:10px 3px
+}
+
+.Cookie-Banner button:hover {
+    background-color:black;
+    color:orange
+}
+
+
+.Cookie-Banner .btn-reject {
+    background:black;
+    color:white
+}

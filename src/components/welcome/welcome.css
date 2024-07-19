@@ -1,0 +1,710 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&family=Noto+Znamenny+Musical+Notation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+
+:root {
+    --white:white;
+    --slategrey:slategrey;
+    --black:black;
+    --green:seagreen;
+  }
+  
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  
+  body {
+    margin:0;
+    padding: 0;
+  }
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  /*--------------------------------CONTENT -----------------------------------------*/
+
+
+  .Login-Header-Container {
+    width: 100%;
+    overflow: hidden;
+
+  }
+
+
+
+  .login-header-wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 500px);
+      align-content:center;
+      justify-content: center;
+      margin:0 auto;
+      gap:3px;
+      max-width: 1200px;
+      text-align: center;
+  }
+
+
+  .welcome-content {
+    background-image: url(/src/images/spainmap.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: scroll;
+    width: 650px;
+    height: 550px;
+  }
+
+
+  .login-content {
+    background-image: url(/src/images/Australiamap.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: scroll;
+    width: 450px;
+    height: 550px;
+  }
+
+
+  .right-content {
+    background-image: url(/src/images/map-england.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: bottom center;
+    background-attachment: scroll;
+    width: 450px;
+    height: 550px;
+
+  }
+  
+
+
+
+  .Welcome-Text-Container {
+    overflow: hidden;
+    width: 100%;
+    background:whitesmoke;
+  }
+
+  .welcome-text-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-content:center;
+    justify-content:center;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+  }
+
+
+  .welcome-text-wrapper h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    color:rgb(188, 224, 238)
+  }
+
+  .welcome-text-wrapper p {
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+
+  
+
+
+
+
+    /*---------------------------------------NAVBAR---------- -------------------------*/
+
+
+      .Nav-Container {
+        width: 100%;
+        overflow: hidden;
+        background-image:url(/src/images/postertravel.jpg);
+        background-attachment:scroll;
+        background-repeat:no-repeat;
+        background-size:cover;
+        border-radius:10px;
+        height: 330px;
+      }
+
+
+
+
+      .Nav-Wrapper {
+       position: relative;
+       margin:0 auto;
+       max-width: 1200px;
+       
+      }
+
+
+      .nav-title {
+        font-size: 1.5rem;
+        font-family: "Cairo Play", sans-serif;
+        font-optical-sizing: auto;
+        position: relative;
+        top:30px;
+        right:0px
+      }
+
+
+      .nav-title-one {
+        position: relative;
+        top:-28px;
+        left: 560px;
+        font-family: "Crimson Text", serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+      }
+
+
+
+
+
+      .nav-title-two {
+        position: relative;
+        top:-60px;
+        left: 700px;
+        font-family: "Crimson Text", serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+      
+        
+      }
+
+      .nav-title-three {
+        position: relative;
+        top:-93px;
+        left: 870px;
+        font-size: 1.4rem;
+        font-family: "Crimson Text", serif;
+        font-weight: 400;
+      }
+
+
+
+      .nav-title-four {
+        position: relative;
+        top:-122px;
+        left: 1000px;
+        font-size: 1.4rem;
+        font-family: "Crimson Text", serif;
+        font-weight: 400;
+      }
+
+      .nav-title-five {
+        position: relative;
+        top:-152px;
+        left: 1130px;
+
+      }
+
+
+      .log-out-link {
+        color:white;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 1.5rem;
+      }
+
+
+
+
+      .nav-title-two:hover,
+      .nav-title-three:hover ,
+      .nav-title-four:hover {
+        cursor: pointer;
+
+      }
+
+
+       .nav-title-two:hover .aus-nav {
+        display: block;
+      }
+
+      .nav-title-three:hover .aus-nav-two{
+        display: block;
+
+      }
+
+
+      .nav-title-four:hover .aus-nav-three {
+        display: block;
+
+      }
+
+
+      
+      .aus-nav {
+        display: none;
+        max-width: 230px;
+        overflow: hidden;
+        border-radius:15px;
+        position: absolute;
+        top:30px;
+        left: -70px;
+        margin: 0 auto;
+        background-color:rgb(42, 209, 209);
+        border:3px solid rgb(228, 143, 5);
+        z-index: 100;
+      }
+
+
+
+      .aus-navbar-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        gap:10px;
+        text-align: center;
+        text-decoration: none;
+        color:black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.2rem;
+        
+      }
+
+
+      .aus-nav-two {
+        display: none;
+        max-width: 230px;
+        overflow: hidden;
+        border-radius:15px;
+        position: absolute;
+        top:33px;
+        left: -85px;
+        margin: 0 auto;
+        background-color:orange;
+        border:3px solid rgb(85, 215, 157);
+        z-index: 100;
+        text-align: center;
+      }
+
+      .aus-navbar-wrapper-two {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        gap:10px;
+        text-align: center;
+        text-decoration: none;
+        color:black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.2rem;
+        
+      }
+
+
+      .aus-nav-three {
+        display: none;
+        max-width: 230px;
+        overflow: hidden;
+        border-radius:15px;
+        position: absolute;
+        top:34px;
+        left: -75px;
+        margin: 0 auto;
+        background-color:rgb(176, 212, 175);
+        border:3px solid rgb(239, 162, 19);
+        z-index: 100;
+        text-align: center;
+      }
+
+      .aus-navbar-wrapper-three {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        gap:10px;
+        text-align: center;
+        text-decoration: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.2rem;
+        
+      }
+
+
+      .home-link {
+        text-decoration: none;
+        color:white
+      }
+
+      
+      .links {
+        text-decoration: none;
+        color:white
+
+      }
+
+
+      .nav-link,
+      .nav-link-two,
+      .nav-link-three{
+        text-decoration: none;
+      
+      }
+
+       .nav-link-text,
+       .nav-link-text-two,
+       .nav-link-text-three
+       {
+        color:white;
+        font-size: 1.5rem;
+      }
+
+
+      .aus-nav-link {
+        width:230px;
+        padding:1em;
+        text-decoration: none;
+        
+      }
+
+      .aus-nav .aus-nav-link:hover {
+        background-color:black;
+        color:white
+      }
+
+      .aus-nav-two .aus-nav-link:hover {
+        background-color:black;
+        color:white
+      }
+
+      .aus-nav-three .aus-nav-link:hover {
+        background-color:black;
+        color:white
+      }
+
+
+
+
+      
+    
+
+
+
+
+
+     
+  /*---------------------------------------ABROAD ANIMATION----------- -------------------------*/
+
+
+  .Animation-Container {
+    width:100%;
+    overflow: hidden;
+    height: 550px;
+    padding:3em
+  }
+
+
+  .Animation-Wrapper > div {
+    /* animation properties */
+  animation-name: my-animation;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  
+  /* other properties */
+  max-width: 2000px;
+  height: 100px;
+  border-radius: 10px;
+  position: relative;
+  left: 0; 
+  right: 0; 
+  margin-left: auto;
+  margin-right: auto; 
+  text-align: center;
+
+  }
+
+
+
+  @keyframes my-animation {
+    from {
+      top: 0px;
+      left: -400px;
+    }
+    to {
+      top: -80px;
+      left: 490px;
+    }
+  }
+
+
+
+
+  .Animation-Wrapper img {
+    mix-blend-mode: multiply;
+  }
+
+
+
+
+  /*---------------------------------------ABROAD CONTENT----------- -------------------------*/
+
+
+  .Abroad-Container {
+    width:100%;
+    overflow: hidden;
+    background-color:rgb(235, 213, 87);
+    border: 1px solid white;
+    border-radius:20%;
+  }
+
+
+  .Abroad-Wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content:center;
+    justify-content: center;
+    gap:30px;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+
+
+  .abroad-content {
+    text-align: center;
+  }
+
+  .abroad-content h3 {
+    font-size: 1.5rem;
+    color:white;
+    font-family: "Playwrite FR Moderne", cursive;
+    font-optical-sizing: auto;
+  }
+
+  .abroad-content img {
+    width:350px;
+    object-fit: contain;
+    border-radius:20px
+  }
+  
+  .abroad-content p {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    color:white;
+    font-size: 0.9rem;
+   
+  }
+
+  .abroad-content:nth-last-of-type(1) {
+    background-color:rgb(203, 120, 236);
+    border:1px solid white;
+    box-shadow: 0px 0px 3px 0px black inset;
+  }
+
+
+
+
+
+
+
+
+  
+  /*---------------------------------------CONTENT THREE---------- -------------------------*/
+
+
+
+  .Container-Three {
+    width: 100%;
+    overflow: hidden;
+    background:rgb(189, 227, 242);
+    padding:3em;
+  
+  }
+
+
+  .Wrapper-Three {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-content:center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1000px;
+  }
+
+
+  .Wrapper-Three h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color:black;
+  }
+
+
+  .Wrapper-Three p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+  }
+
+
+
+  .Wrapper-Four {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content:center;
+    justify-content: center;
+    gap:30px;
+    margin:0 auto;
+    max-width: 1500px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+
+  .wrapper-four-content {
+    background:url(/src/images/francecouple.jpg);
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    height: 310px;
+    width: 350px;
+  }
+
+
+  .wrapper-four-content-two {
+    background:url(/src/images/london-big-ben-selfie-stick.png);
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    height: 310px;
+    width: 350px;
+  }
+
+
+
+  .wrapper-four-content-three {
+    background:url(/src/images/womensmile.jpg);
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    height: 310px;
+    width: 350px;
+  }
+
+
+
+  .wrapper-four-content-white {
+    background:white;
+    height: 310px;
+    width: 350px;
+    border-radius:15px;
+    text-align: center;
+  }
+
+  .wrapper-four-content-white img {
+    width:55px;
+    object-fit: contain;
+  }
+
+  .wrapper-four-content-white h3 {
+    font-size: 1.3rem;
+    color:slategrey;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+  .wrapper-four-content-white p {
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+
+
+
+
+
+
+
+
+
+
+    /*--------------------------------FOOTER -----------------------------------------*/
+
+
+
+
+
+
+.Welcome-Footer-Container {
+  width: 100%;
+  overflow: hidden;
+  background:black;
+  position: relative;
+  bottom:0;;
+  padding:3em
+
+}
+
+
+
+.Welcome-Footer-Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  gap:55px;
+  max-width: 1200px;
+  margin:0 auto;
+
+}
+
+
+.welcome-footer-text {
+  font-size: 1.2rem;
+  color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+
+.welcome-footer-text-two
+{
+  color:white;
+  font-size: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.welcome-footer-text-two {
+  border: 1px solid whitesmoke;
+  padding:3em
+}
+
+.welcome-footer-text-three {
+  font-size: 0.8rem;
+  color:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+

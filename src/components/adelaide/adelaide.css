@@ -1,0 +1,356 @@
+
+
+
+
+
+
+:root {
+    --whiteColor: white;
+    --blackColor: black;
+    --seaGreen: seagreen
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    padding:0;
+    margin:0;
+    overflow-x: hidden;
+  
+}
+
+
+
+
+
+
+/*------------------------CONTENT---------------------------*/
+
+
+
+
+
+
+.Adelaide-Page-Header {
+    overflow: hidden;
+    width: 100%;
+    margin-block:45px
+
+    
+}
+
+
+
+.Adelaide-Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:0 auto;
+    max-width: 2000px;
+    height: 380px;
+    border-radius: 30%;
+
+}
+
+
+
+
+
+.adelaide-content {
+    text-align: center;
+    background-color:rgb(42, 209, 209);
+   border-radius:80%;
+   border:1px solid black;
+   height: 410px;
+   max-width: 550px;
+  
+
+}
+
+
+
+.adelaide-content h3 {
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white
+}
+
+
+.adelaide-content p {
+    color:white;
+    font-size: 1.1rem;
+    margin:90px 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+.adelaide-content-two img {
+    width: 480px;
+    object-fit: contain;
+    border-radius:20%;
+}
+
+
+
+
+.Adelaide-Wrapper-Two {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 1800px;
+    text-align: center;
+}
+
+
+.Adelaide-Wrapper-Two h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    
+}
+
+
+.Adelaide-Wrapper-Two img {
+    border-radius:5%;
+    object-fit: contain;
+    width: 800px;
+}
+
+
+.line-break {
+    color:green;
+    width: 249px;
+    margin-top: -30px;
+}
+
+
+
+.adelaide-content-three {
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:whitesmoke;
+    height: 190px;
+    border:1px solid black;
+
+}
+
+
+
+.Adelaide-Wrapper-Three {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    max-width: 1800px;
+    margin:0 auto;
+    text-align: center;
+}
+
+ 
+.adelaide-content-five {
+    background:rgb(19, 112, 112);
+    height: 260px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    max-width: 780px;
+    border:1px solid rgb(42, 209, 209); 
+    
+}
+
+
+.adelaide-content-six img {
+    width: 410px;
+    object-fit: contain;
+    border-radius: 10%;
+}
+
+
+
+.adelaide-content-seven {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 500px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+
+
+
+.Adelaide-Wrapper-Four {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    max-width: 1800px;
+    margin:0 auto;
+    text-align: center;
+}
+
+
+
+.adelaide-content-eight img {
+    width: 410px;
+    object-fit: contain;
+    border-radius: 10%;
+    border: 1px solid black;
+}
+
+
+.adelaide-content-nine {
+    text-align: center;
+    color:white;
+    width: 900px;
+    height: 210px;
+    font-family: "Diamond", "Emerald", "Sapphire", "Ruby", "Pearl";
+    font-size: 1.1rem;
+    background-color:rgb(227, 171, 57);
+    border:1px solid rgb(113, 161, 181);
+    clip-path: polygon(0 0, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0 76%);
+}
+
+
+
+
+.adelaide-content-ten {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:0 auto;
+    max-width: 500px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+
+
+
+
+.Adelaide-Wrapper-Five {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    max-width: 1800px;
+    margin:0 auto;
+    text-align: center;
+}
+
+
+
+.adelaide-content-travel img {
+    width: 410px;
+    object-fit: contain;
+    border-radius: 10%;
+    border: 1px solid black;
+}
+
+
+.adelaide-content-travel-content {
+    text-align: center;
+    color:white;
+    font-size: 1.1rem;
+    width: 900px;
+    height: 210px;
+    font-family: "Diamond", "Emerald", "Sapphire", "Ruby", "Pearl";
+    background-color:slategrey;
+    border-radius:10%
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------FOOTER---------------------------------------*/
+
+
+
+
+
+.Welcome-Footer-Container {
+    width: 100%;
+    overflow: hidden;
+    background:black;
+    position: relative;
+    bottom:0;;
+    padding:3em
+  
+  }
+  
+  
+  
+  .Welcome-Footer-Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap:55px;
+    max-width: 1200px;
+    margin:0 auto;
+  
+  }
+  
+  
+  .welcome-footer-text {
+    font-size: 1.2rem;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  
+  }
+  
+  
+  .welcome-footer-text-two
+  {
+    color:white;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  
+  .welcome-footer-text-two {
+    border: 1px solid whitesmoke;
+    padding:3em
+  }
+  
+  .welcome-footer-text-three {
+    font-size: 0.8rem;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  
+  
+  
+  
+  

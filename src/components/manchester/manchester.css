@@ -1,0 +1,335 @@
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+.Manchester-Header {
+    width: 100%;
+    overflow: hidden;
+    margin-block: 30px;
+}
+
+.Manchester-Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1300px;
+    text-align: center;
+}
+
+.manchester-content img {
+    object-fit: contain;
+    width: 550px;
+    border-radius: 10%;
+}
+
+.manchester-content-two {
+    font-size: 3rem;
+    border: 3px solid paleturquoise;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 310px;
+    width: 610px;
+    background-color: rgb(176, 212, 175);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+
+.manchester-content-two h3 {
+    margin-top: 115px;
+}
+
+.manchester-text {
+    margin-top: 110px;
+}
+
+/*-----------------------------ABOUT CONTENT--------------------------*/
+
+.Manchester-About-Container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.Manchester-About-Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.manchester-underline-text {
+    color: seagreen;
+    width: 230px;
+    margin-top: -9px;
+}
+
+.manchester-about-image img {
+    width: 610px;
+    object-fit: contain;
+    border-radius: 10%;
+}
+
+.Manchester-about-text {
+    width: 800px;
+    background-color: rgb(222, 153, 67);
+    border: 1px solid black;
+    height: 310px;
+    text-align: center;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+.Manchester-about-text p {
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.manchester-parkland-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+.Manchester-About-Wrapper-Two {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1400px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.manchester-parkland-image img {
+    width: 380px;
+    object-fit: contain;
+    border-radius: 10%;
+}
+
+.manchester-parkland-content {
+    text-align: center;
+    width: 800px;
+    height: 270px;
+    font-size: 1.1rem;
+    background-color: orangered;
+    border-radius: 10%;
+    border: 1px solid black;
+    color: white;
+}
+
+.manchester-job-market {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: seagreen;
+    margin-block: 90px;
+}
+
+.Manchester-About-Wrapper-Three {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1400px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.manchester-job-market-content img {
+    object-fit: contain;
+    width: 410px;
+    border-radius: 10%;
+}
+
+.manchester-job-market-content-two {
+    text-align: center;
+    background-color: rgb(19, 44, 79);
+    color: white;
+    width: 890px;
+    height: 310px;
+    border: 1px solid black;
+    font-family: "Diamond", "Emerald", "Sapphire", "Ruby", "Pearl";
+    font-size: 1rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+.manchester-arts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: orange;
+}
+
+.Manchester-About-Wrapper-Four {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1400px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.manchester-arts-image img {
+    object-fit: contain;
+    width: 410px;
+    border-radius: 10%;
+}
+
+.manchester-arts-content {
+    text-align: center;
+    background-color: rgb(124, 175, 156);
+    color: white;
+    width: 890px;
+    height: 310px;
+    border: 1px solid black;
+    font-family: "Diamond", "Emerald", "Sapphire", "Ruby", "Pearl";
+    font-size: 1rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+.Manchester-Culture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: purple;
+}
+
+.Manchester-About-Wrapper-Five {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1400px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Manchester-Culture-Image img {
+    width: 410px;
+    border-radius: 10%;
+    object-fit: contain;
+}
+
+.Manchester-Culture-Content {
+    text-align: center;
+    background-color: purple;
+    color: white;
+    width: 890px;
+    height: 210px;
+    border: 1px solid black;
+    font-family: "Diamond", "Emerald", "Sapphire", "Ruby", "Pearl";
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Welcome-Footer-Container {
+    width: 100%;
+    overflow: hidden;
+    background:black;
+    position: relative;
+    bottom:0;;
+    padding:3em
+  
+  }
+  
+  
+  
+  .Welcome-Footer-Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap:55px;
+    max-width: 1200px;
+    margin:0 auto;
+  
+  }
+  
+  
+  .welcome-footer-text {
+    font-size: 1.2rem;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  
+  }
+  
+  
+  .welcome-footer-text-two
+  {
+    color:white;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  
+  .welcome-footer-text-two {
+    border: 1px solid whitesmoke;
+    padding:3em
+  }
+  
+  .welcome-footer-text-three {
+    font-size: 0.8rem;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  
