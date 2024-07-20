@@ -243,7 +243,6 @@ const Navbar = () => {
                        traveling internationally can enhance your adaptability 
                       and problem-solving skills, as you navigate unfamiliar environments and situations.</p></div>
   
-                      <div><div><button type='button'>Contact US</button></div></div>
                   </div>
   
   
